@@ -20,3 +20,17 @@ This is a example terraform template to build vpc and install NGINX on ec2 and R
    14.Attache security group of ec2
 
 
+
+
+### Steps to run
+### Clone the git repo
+```bash
+git clone git@github.com:imran-baig-se/terraform-new.git
+```
+#### Run
+```
+cd <path to .tf file>
+terraform init
+terraform plan
+terraform apply
+```
