@@ -430,7 +430,7 @@ resource "aws_security_group" "mydb1" {
     from_port = 5432
     to_port = 5432
     protocol = "tcp"
-   security_group_ids  = ["${aws_security_group.ec2_pub.id}"]
+##   security_group_ids  = ["${aws_security_group.ec2_pub.id}"]
 
   }
 
