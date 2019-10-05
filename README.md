@@ -4,19 +4,19 @@
 
 This is a example terraform template to build vpc and install NGINX on ec2 and RDS DB with This template will create following resources.
 
-VPC
-Public Subnet - 1
-Private Subnet - 2
-Internet Gateway
-NAT Gateway
-Route Tables
-ELB
-Security Groups
-Bastion Host/ Jump Server
-EC2 Instances
-Install NGINX
-Attach Instances to ELB
-Create RDS DB (Postgress)
-Attache security group of ec2
+   1. VPC
+   2. Public Subnet - 1
+   3. Private Subnet - 2
+   4. Internet Gateway
+   5. NAT Gateway
+   6. Route Tables
+   7. ELB
+   8. Security Groups
+   9. Bastion Host/ Jump Server
+   10. EC2 Instances
+   11. Install NGINX
+   12. Attach Instances to ELB
+   13.Create RDS DB (Postgress)
+   14.Attache security group of ec2
 
 
